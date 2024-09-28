@@ -9,25 +9,23 @@ router.get('/', (req, res) => {
 
 // Rota Obras
 router.get('/obras', (req, res) => {
-    const obras = [
-        {title: 'Obra 1'}
-    ]
-    res.json({ message: 'Aqui estão as obras!' });
+  const obras = [{ title: 'Obra 1' }]
+  res.json({ message: 'Aqui estão as obras!' })
 })
 
 // Rota exposicoes
 router.get('/exposicoes', (req, res) => {
-    res.json({ message: 'Informações sobre exposições!' });
+  res.json({ message: 'Informações sobre exposições!' })
 })
 
 // Rota perfil (sobre mim)
 router.get('/perfil', (req, res) => {
-    res.json({ message: 'Perfil do artista!' });
+  res.json({ message: 'Perfil do artista!' })
 })
 
 // Rota contato
 router.get('/contato', (req, res) => {
-    res.json({ message: 'Formas de contato!' });
+  res.json({ message: 'Formas de contato!' })
 })
 
 export default router

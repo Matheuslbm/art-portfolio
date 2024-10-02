@@ -12,7 +12,7 @@ const Nav = () => {
         <nav className="bg-white shadow-md">
             <div className="flex justify-between items-center h-[10vh] lg:py-5 px-5 md:px-20">
                 {/* Logo */}
-                <div className="text-3xl font-bold">Esther</div>
+                <div className="text-3xl font-bold text-slate-700">Esther Cerqueira</div>
 
                 {/* Menu hamburguer para telas pequenas */}
                 <div className="lg:hidden">

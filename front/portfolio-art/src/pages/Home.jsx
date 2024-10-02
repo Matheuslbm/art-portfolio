@@ -1,15 +1,25 @@
 import React from "react";
 import Nav from "../components/nav";
+import Footer from '../components/Footer'
 
 const Home = () => {
     return (
 		<>
-		<div className="border border-slate-100">
+		<div className="flex flex-col min-h-screen">
 		<Nav/>
-		</div>
-		<div className="text-center p-5">
-			<h1 className="text-3xl font-bold text-gray-800">Home</h1>
-			<p className="text-gray-600"> Bem vindo ao portfólio</p>
+		
+
+			<div className="flex-grow">
+				<div className="">
+					
+				</div>
+
+				<img src="08.jpg" alt="obra de ate" className="mx-auto w-full max-w-[1500px] object-contain border border-gray-400 rounded-lg shadow-lg" />
+			</div>
+
+			
+		
+		<Footer/>
 		</div>
 		</>
 	)

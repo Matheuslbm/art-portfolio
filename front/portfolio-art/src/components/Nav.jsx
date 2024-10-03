@@ -46,7 +46,7 @@ const Nav = () => {
 
             {/* Menu responsivo que aparece em telas pequenas */}
             {menuOpen && (
-                <div className="lg:hidden bg-slate-50 w-full absolute top-16 left-0 z-50 shadow-md">
+                <div className="lg:hidden bg-slate-50 w-full absolute top-16 left-0 z-50 shadow-md ">
                     <ul className="flex flex-col items-center p-5 space-y-4">
                         <li>
                             <Link to="/" onClick={toggleMenu} className="text-xl hover:text-gray-400 hover:border-b-2 border-slate-800">Home</Link>

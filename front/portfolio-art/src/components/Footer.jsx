@@ -2,9 +2,10 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faFacebook } from "@fortawesome/free-brands-svg-icons";
 
+
 const Footer = () => {
     return (
-        <footer className="bg-white text-slate-900 py-6">
+        <footer data-aos="fade-up" className="bg-white text-slate-900 py-6">
             <div className="container mx-auto text-center">
                 
                 <div className="mt-4 flex justify-center space-x-4">

@@ -6,6 +6,7 @@ import Expo from "./pages/Exposicao";
 import Perfil from "./pages/Perfil";
 import Contato from "./pages/Contato";
 
+
 function App() {
 	return (
 		<Router>

@@ -27,7 +27,7 @@ const Home = () => {
 				Sua arte reflete emoções profundas e explora temas contemporâneos.</p>
 				<Link to='/perfil'>
 					{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
-					<button className="mt-4 px-4 py-2 bg-slate-800 text-white font-semibold rounded transition duration-300 hover:bg-slate-900">
+					<button className=" mt-5 px-4 py-4 bg-slate-800 text-white font-semibold rounded-full transition duration-300 hover:bg-slate-600">
 						Ver perfil completo
 					</button>
 				</Link>
@@ -66,7 +66,7 @@ const Home = () => {
 					<p className="text-gray-700 mb-4">"A arte lava da alma a poeira da vida cotidiana."</p>
 					<Link to='/obras'>
 						{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
-						<button className="px-4 py-2 bg-slate-800 text-white font-semibold rounded transition duration-300 hover:bg-slate-900">
+						<button className="px-4 py-3 bg-slate-800 text-white font-semibold rounded-full transition duration-300 hover:bg-slate-600">
 							Explore a galeria
 						</button>
 					</Link>

@@ -37,9 +37,7 @@ const Nav = () => {
                         <li>
                             <Link to="/exposicoes" className="hover:text-gray-400 hover:border-b-2 border-slate-800">Exposições</Link>
                         </li>
-                        <li>
-                            <Link to="/contato" className="hover:text-gray-400 hover:border-b-2 border-slate-800">Contato</Link>
-                        </li>
+                   
                     </ul>
                 </div>
             </div>
@@ -60,9 +58,7 @@ const Nav = () => {
                         <li>
                             <Link to="/exposicoes" onClick={toggleMenu} className="text-xl hover:text-gray-400 hover:border-b-2 border-slate-800">Exposições</Link>
                         </li>
-                        <li>
-                            <Link to="/contato" onClick={toggleMenu} className="text-xl hover:text-gray-400 hover:border-b-2 border-slate-800">Contato</Link>
-                        </li>
+                    
                     </ul>
                 </div>
             )}

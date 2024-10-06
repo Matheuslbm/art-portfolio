@@ -11,7 +11,7 @@ const Expo = () => {
         <>
             <Nav/>
               {/* Container principal */}
-              <div className="container mx-auto p-10 mb-96">
+              <div className="container mx-auto p-10 mb-96 mt-[10vh]">
                     {/* Seção da exposição */}
                     <div className="flex flex-col lg:flex-row items-center justify-between p-10 bg-slate-100 rounded-lg shadow-lg" data-aos='fade-up'>
                          {/* Imagem da exposição à esquerda */}

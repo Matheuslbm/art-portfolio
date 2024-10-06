@@ -9,10 +9,10 @@ const Nav = () => {
         setMenuOpen(!menuOpen)
     }
     return (
-        <nav className="bg-white shadow-md">
+        <nav className="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
             <div className="flex justify-between items-center h-[10vh] lg:py-5 px-5 md:px-20">
                 {/* Logo */}
-                <div className="text-3xl font-bold text-slate-700">Esther Cerqueira</div>
+                <div className="text-3xl  text-slate-700">Esther Cerqueira </div>
 
                 {/* Menu hamburguer para telas pequenas */}
                 <div className="lg:hidden">

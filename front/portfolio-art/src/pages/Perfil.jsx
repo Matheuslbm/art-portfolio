@@ -12,7 +12,7 @@ const Perfil = () => {
         
             <Nav/>
               
-              <div data-aos="zoom-in" className="flex flex-col lg:flex-row items-center justify-center lg:items-start p-10 lg:p-20 mb-96 ">
+              <div data-aos="zoom-in" className="flex flex-col lg:flex-row items-center justify-center lg:items-start p-10 lg:p-20 mb-96 mt-[10vh]">
                  {/* Texto da história à esquerda */}
                  <div className="lg:w-1/2 text-left mb-8 lg:mb-0 lg:mr-10">
                     <h1 className="text-4xl font-bold mb-4">A história de Esther</h1>

@@ -23,8 +23,11 @@ const Home = () => {
 		{/* Texto e botão */}
 			<div className="text-left">
 				<h2 className=" text-3xl font-bold text-gray-800 mb-4">Sobre mim</h2>
-				<p className="text-gray-700 text-justify leading-relaxed max-w-prose mb-4 text-lg">Esther é uma artista plástica renomada, conhecida por suas pinturas vibrantes e expressivas.
+				<p className="text-gray-700  leading-relaxed max-w-prose mb-4 text-lg">Esther é uma artista plástica renomada, conhecida por suas pinturas vibrantes e expressivas.
 				Sua arte reflete emoções profundas e explora temas contemporâneos.</p>
+				<p className="text-gray-700  leading-relaxed max-w-prose mb-4 text-lg">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis distinctio, doloribus fuga voluptatem placeat magni in quae, tenetur tempora fugiat delectus, nisi nobis doloremque ullam. Eveniet asperiores facilis suscipit quas?
+				</p>
 				<Link to='/perfil'>
 					{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 					<button className=" mt-5 px-4 py-4 bg-slate-800 text-white font-semibold rounded-full transition duration-300 hover:bg-slate-600">

@@ -33,7 +33,7 @@ const Obras = () => {
             <Nav/>
 
             {/*Container de obras */}
-            <div data-aos="fade-up" className="container mx-auto p-10">
+            <div data-aos="fade-up" className="container mx-auto p-10 mt-[10vh]">
                 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 justify-items-center ">
                     {obras.map((obra) => (

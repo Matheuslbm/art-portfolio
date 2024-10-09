@@ -17,7 +17,7 @@ const Expo = () => {
                          {/* Imagem da exposição à esquerda */}
                          <div className="lg:w-1/2 mb-8 lg:mb-0 lg:mr-10">
                             <img 
-                            src="galeria.jpg" 
+                            src="3long.jpg" 
                             alt="foto da exposicao" 
                             className="w-full h-auto rounded-lg shadow-lg"
                             />

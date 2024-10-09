@@ -26,9 +26,9 @@ const Perfil = () => {
                  {/* Foto da artista à direita */}
                  <div className="lg:w-1/2 flex justify-center lg:justify-end">
                     <img 
-                    src="perfil.jpg" 
+                    src="quadros3.jpg" 
                     alt="Foto esther" 
-                    className="w-[300px] h-[450px] object-cover rounded-lg shadow-lg"
+                    className="w-[600px] h-[450px] object-cover rounded-lg shadow-lg"
                     />
                  </div>
               </div>

@@ -5,11 +5,13 @@ import Obras from "./pages/Obras";
 import Expo from "./pages/Exposicao";
 import Perfil from "./pages/Perfil";
 import Contato from "./pages/Contato";
+import ScrollToTop from "./components/ScrollToTop";
 
 
 function App() {
 	return (
 		<Router>
+			<ScrollToTop/>
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/obras" element={<Obras />} />

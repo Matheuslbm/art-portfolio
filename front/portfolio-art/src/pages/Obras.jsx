@@ -10,7 +10,6 @@ const obras = [
   { id: 4, src: '04.jpg', alt: 'tela4' },
   { id: 5, src: '05.jpg', alt: 'tela5' },
   { id: 6, src: '06.jpg', alt: 'tela6' },
-  { id: 7, src: '07.jpg', alt: 'tela7' },
   { id: 8, src: '08.jpg', alt: 'tela8' },
   { id: 9, src: '09.jpg', alt: 'tela9' },
   { id: 10, src: '10.jpg', alt: 'tela10' },

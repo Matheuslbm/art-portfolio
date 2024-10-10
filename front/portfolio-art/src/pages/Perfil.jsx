@@ -20,7 +20,7 @@ const Perfil = () => {
           <h1 className="text-4xl font-bold mb-4">A história de Esther</h1>
           <p className="text-gray-700 text-lg leading-relaxed">
             Sou carioca, moro no Rio de Janeiro Sou uma artista autodidata, cujo
-            coração pulsa ao ritmo das artes . No passado, ousei explorar os
+            coração pulsa ao ritmo das artes. No passado, ousei explorar os
             territórios da moda. Entretanto, a chama das artes plásticas sempre
             ardeu em meu íntimo, deixei o mundo da produção de moda e comecei a
             explorar a arte pintando quadros desenvolvendo, o que sempre sonhei.

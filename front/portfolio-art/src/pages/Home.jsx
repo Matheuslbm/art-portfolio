@@ -22,19 +22,20 @@ const Home = () => {
 
         {/* Texto e botão */}
         <div className="text-left">
-          <h2 className=" text-3xl font-bold text-gray-800 mb-4 ">Sobre mim</h2>
+          <h2 className=" text-3xl font-bold text-gray-800 mb-4 ">Sobre 🖌️</h2>
 
           <p className="text-gray-700  leading-relaxed max-w-prose mb-4 text-lg">
-            Esther começou sua jornada no mundo das Artes plásticas de forma
-            autodidata, pintando telas com tinta óleo desde 2008.
+          Para mim, as obras de <strong>arte</strong> são capazes de adicionar uma dose extra de <strong>personalidade e estilo a qualquer ambiente</strong>. A harmonia de cores e formas presentes nessas obras únicas, cria uma atmosfera cativante!
           </p>
 
           <p className="text-gray-700  leading-relaxed max-w-prose mb-4 text-lg">
-            Após uma pausa na carreira, volta com a pintura abstrata usando
-            tinta acrílica. Sua inspiração vem do cotidiano, da natureza e seus
-            movimentos, das cores vibrantes do pôr do sol e do horizonte. Tudo é
-            motivo para se tornar arte e despertar emoções em quem as contempla.
+             É impressionante como a combinação certa de cores pode influenciar nossas emoções e criar uma <strong>sensação de equilíbrio e harmonia em um espaço. </strong>
           </p>
+
+          <p className="text-gray-700  leading-relaxed max-w-prose mb-4 text-lg">
+          Essas obras de arte podem transformar completamente o ambiente, adicionando um toque de <strong>sofisticação e expressão artística</strong>.
+          </p>
+
           <Link to="/perfil">
             {/* biome-ignore lint/a11y/useButtonType: <explanation> */}
             <button className=" mt-5 px-4 py-4 text-sm md:text-base bg-slate-800 text-white font-semibold rounded-full transition duration-300 hover:bg-slate-600">
@@ -74,7 +75,7 @@ const Home = () => {
         {/*Texto e botao*/}
         <div className="flex flex-col">
           <p className="text-gray-700 mb-4">
-            "A arte lava da alma a poeira da vida cotidiana."
+            "A arte não apenas expressa emoções, mas também tem o poder de transformar e compor o ambiente."
           </p>
           <Link to="/obras">
             {/* biome-ignore lint/a11y/useButtonType: <explanation> */}

@@ -13,7 +13,7 @@ const Nav = () => {
       <div className="flex justify-between items-center h-[10vh] lg:py-5 px-5 md:px-20">
         {/* Logo */}
         <Link to='/' className="text-3xl  text-slate-700">
-        🎨 Esther Cerqueira
+        🎨 Esther Ramos
         </Link> 
 
 

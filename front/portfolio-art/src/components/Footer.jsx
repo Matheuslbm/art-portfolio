@@ -35,6 +35,11 @@ const Footer = () => {
             <FontAwesomeIcon icon={faEnvelope} size="2x" />
           </a>
         </div>
+
+        <p className='mt-4'>
+          Para <strong>encomendas</strong> ou mais <strong>informações</strong>, mande-me uma <strong>mensagem</strong>!
+        </p>
+
         <hr className="border-t border-slate-600 my-4" />
         <p>
           Developed with 🖤 for {''}

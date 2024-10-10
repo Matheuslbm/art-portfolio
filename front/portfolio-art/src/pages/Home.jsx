@@ -23,10 +23,12 @@ const Home = () => {
 		{/* Texto e botão */}
 			<div className="text-left">
 				<h2 className=" text-3xl font-bold text-gray-800 mb-4 ">Sobre mim</h2>
-				<p className="text-gray-700  leading-relaxed max-w-prose mb-4 text-lg">Esther é uma artista plástica renomada, conhecida por suas pinturas vibrantes e expressivas.
-				Sua arte reflete emoções profundas e explora temas contemporâneos.</p>
+
+				<p className="text-gray-700  leading-relaxed max-w-prose mb-4 text-lg">Esther começou sua jornada no mundo das Artes plásticas de forma autodidata, pintando telas com tinta óleo desde 2008.
+				</p>
+
 				<p className="text-gray-700  leading-relaxed max-w-prose mb-4 text-lg">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis distinctio, doloribus fuga voluptatem placeat magni in quae, tenetur tempora fugiat delectus, nisi nobis doloremque ullam. Eveniet asperiores facilis suscipit quas?
+					 Após uma pausa na carreira, volta com a pintura abstrata usando tinta acrílica. Sua inspiração vem do cotidiano, da natureza e seus movimentos, das cores vibrantes do pôr do sol e do horizonte. Tudo é motivo para se tornar arte e despertar emoções em quem as contempla.
 				</p>
 				<Link to='/perfil'>
 					{/* biome-ignore lint/a11y/useButtonType: <explanation> */}

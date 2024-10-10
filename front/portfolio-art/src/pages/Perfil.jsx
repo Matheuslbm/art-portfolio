@@ -17,11 +17,18 @@ const Perfil = () => {
                  <div className="lg:w-1/2 text-left mb-8 lg:mb-0 lg:mr-10">
                     <h1 className="text-4xl font-bold mb-4">A história de Esther</h1>
                     <p className="text-gray-700 text-lg leading-relaxed">
-                        Esther é uma renomada artista plástica, cuja jornada nas artes visuais começou desde muito jovem. Suas obras são reconhecidas pela expressividade e pelas cores vibrantes, que refletem emoções profundas e uma interpretação única do mundo contemporâneo.
+                    Sou carioca, moro no Rio de Janeiro 
+                    Sou uma artista autodidata, cujo coração pulsa ao ritmo das artes . No passado, ousei explorar os territórios da moda. Entretanto, a chama das artes plásticas sempre ardeu em meu íntimo, deixei o mundo da produção de moda e comecei a explorar a  arte pintando quadros desenvolvendo, o que sempre sonhei. Por circunstâncias adversas, me  afastei temporariamente desse universo.
                     </p>
-                    <p className="text-gray-700 text-lg leading-relaxed mt-4">Com uma carreira de mais de duas décadas, ela já participou de exposições nacionais e internacionais, conquistando admiradores por onde passa. Sua arte transcende fronteiras e toca o coração de todos que a contemplam.
+
+                    <p className="text-gray-700 text-lg leading-relaxed mt-4">No ano de 2023, após uma década de espera, estou de volta à minha antiga paixão. Ter em minhas mãos um pincel ou uma espátula, cercada pelas cores vívidas das tintas e a minha frente, uma tela em branco que  aguarda ansiosamente para ser transformada em uma obra de arte através de imaginação e sentimentos. 
 
                     </p>
+
+                    <p className="text-gray-700 text-lg leading-relaxed mt-4">
+                    Cada traço é uma declaração ardente, uma vontade irrefreável de desencadear emoções por meio da minha arte. Meu propósito é compartilhar essa  paixão com o mundo.
+                    </p>
+
                  </div>
                  {/* Foto da artista à direita */}
                  <div className="lg:w-1/2 flex justify-center lg:justify-end">

@@ -19,7 +19,7 @@ const Perfil = () => {
         <div className="lg:w-1/2 text-left mb-8 lg:mb-0 lg:mr-10">
           <h1 className="text-4xl font-bold mb-4">A história de Esther</h1>
           <p className="text-gray-700 text-lg leading-relaxed">
-            Sou carioca, moro no Rio de Janeiro Sou uma artista autodidata, cujo
+            Sou carioca, moro no Rio de Janeiro, sou uma artista autodidata, cujo
             coração pulsa ao ritmo das artes. No passado, ousei explorar os
             territórios da moda. Entretanto, a chama das artes plásticas sempre
             ardeu em meu íntimo, deixei o mundo da produção de moda e comecei a

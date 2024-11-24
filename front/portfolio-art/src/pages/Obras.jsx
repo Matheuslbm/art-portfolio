@@ -5,7 +5,7 @@ import Aos from 'aos';
 
 const obras = [
   
-  { id: 1, src: '02.jpg', alt: 'tela2', sold: false,  nome: 'Por do sol no Rio de Janeiro', tamanho: '70 x 100 cm', moldura: 'Filete amadeirado', tecn: 'Tinta acrílica', ano: '2023' },
+  { id: 1, src: '02.jpg', alt: 'tela2', sold: false,  nome: 'Por do sol Rio de Janeiro', dimensoes: '70 x 100 cm', moldura: 'Filete amadeirado', tecn: 'Tinta acrílica', ano: '2023' },
   { id: 2, src: '03.jpg', alt: 'tela3', sold: false,  nome: 'Reinvenção', dimensoes: '70 x 100 cm', moldura: 'Sem Moldura ', tecn: 'Tinta acrílica', ano: '2023' },
   
   { id: 3, src: '05.jpg', alt: 'tela5', sold: false,  nome: 'Céu dourado', dimensoes: '40 x 60 cm', moldura: 'Sem moldura', tecn: 'Tinta acrílica', ano: '2023' },
@@ -67,14 +67,14 @@ const Obras = () => {
                 className="w-80 h-[500px] object-cover cursor-pointer rounded-lg shadow-lg hover:scale-105 transition-transform "
                 onClick={() => openImage(obra.src)}
               />
-              
+
                {/* Informações da obra */}
                <div className="mt-2 text-center">
-               <p><strong>Nome:</strong>{obra.nome}</p>
-               <p><strong>Dimesões:</strong>{obra.dimensoes}</p>
-               <p><strong>Moldura:</strong>{obra.moldura}</p>
-               <p><strong>Técnica:</strong>{obra.tecn}</p>
-               <p><strong>Ano:</strong>{obra.ano}</p>
+               <p><strong>Nome :</strong>{obra.nome}</p>
+               <p><strong>Dimesões: </strong>{obra.dimensoes}</p>
+               <p><strong>Moldura: </strong>{obra.moldura}</p>
+               <p><strong>Técnica: </strong>{obra.tecn}</p>
+               <p><strong>Ano: </strong>{obra.ano}</p>
                </div>
 
               {/* Exibe a mensagem "Indisponível" apenas se a obra foi vendida */}

@@ -36,6 +36,11 @@ const Home = () => {
           Essas obras de arte podem transformar completamente o ambiente, adicionando um toque de <strong>sofisticação e expressão artística</strong>.
           </p>
 
+          <p className="text-gray-700  leading-relaxed max-w-prose mb-4 text-lg">
+          <strong>Aceito encomendas, você pode me enviar uma mensagem, clicando no ícone do whatsapp no final desta página!
+            Faço um convite para explorar a galeria, as telas estão a venda e caso queira mais informações sobre a tela e valores, mais fotos, fique a vontade para me enviar uma mensagem no meu whatsapp!</strong>.
+          </p>
+
           <Link to="/perfil">
             {/* biome-ignore lint/a11y/useButtonType: <explanation> */}
             <button className=" mt-5 px-4 py-4 text-sm md:text-base bg-slate-800 text-white font-semibold rounded-full transition duration-300 hover:bg-slate-600">

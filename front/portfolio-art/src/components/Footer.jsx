@@ -18,7 +18,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://api.whatsapp.com/send?phone=5521987943518"
+            href="https://api.whatsapp.com/send?phone=5521968035544"
             target="_blank"
             rel="noopener noreferrer"
             className="text-slate-900 hover:text-gray-400"

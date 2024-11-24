@@ -70,7 +70,7 @@ const Obras = () => {
 
                {/* Informações da obra */}
                <div className="mt-2 text-center">
-               <p><strong>Nome :</strong>{obra.nome}</p>
+               <p><strong>Nome: </strong>{obra.nome}</p>
                <p><strong>Dimesões: </strong>{obra.dimensoes}</p>
                <p><strong>Moldura: </strong>{obra.moldura}</p>
                <p><strong>Técnica: </strong>{obra.tecn}</p>
